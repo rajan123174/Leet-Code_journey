@@ -27,4 +27,3 @@ class Solution:
             return build_next(0, "")
 
         return dfs(bottom)
-    # i 
