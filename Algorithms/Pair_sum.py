@@ -37,7 +37,7 @@ def pairSum_Optimized(nums,target):
             i = i+1
         else:
            return pair_Sum
-        
+         
 
 print(pairSum_Optimized(nums,target))
         

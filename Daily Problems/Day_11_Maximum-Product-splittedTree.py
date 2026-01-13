@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
+from typing import Optional
 class Solution:
     def maxProduct(self, root: Optional[TreeNode]) -> int:
         MOD = 10**9 + 7
