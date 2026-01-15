@@ -1,3 +1,4 @@
+#concept of modified binary search
 def peakIndex(arr):
     start = 1
     end = len(arr)-2

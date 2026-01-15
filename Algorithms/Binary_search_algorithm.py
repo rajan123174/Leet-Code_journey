@@ -19,20 +19,25 @@ target = 12
 
 print(binarySearch(arr,target))
 
+#Recursive method for binary search
 start = 0
 end = len(arr)
 def recursive_binarySearch(arr,target,start,end):
     mid = start + (end-start)//2
     if start <= end:
         if target > arr[mid] :
-            return recursive_binarySearch(arr,target,mid+1,end)
+            return recursive_binarySearch(arr,target,mid+1,end)#2nd half
         elif target < arr[mid]:
-            recursive_binarySearch(arr,target,start,mid-1)
+            recursive_binarySearch(arr,target,start,mid-1)#1st half
         else:
-            return mid
+            return mid # target == mid
     return -1
 
 print(recursive_binarySearch(arr,target,start,end))
+
+
+
+
     
 
 
