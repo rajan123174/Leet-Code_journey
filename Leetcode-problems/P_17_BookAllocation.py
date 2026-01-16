@@ -1,4 +1,5 @@
 '''
+Date:->15 Jan 2026
 Here in this question there are N number of books
 and each book has A[i] number of pages and we have to allocate
 these books to M number of students so that the maximum number
@@ -34,7 +35,7 @@ def bookAllocation(arr,n,m):
     
     sum = 0
     for i in range(n): # O(n)
-        sum += arr[i]
+        sum += arr[i] 
     
     ans = -1
     st, end = 0,sum

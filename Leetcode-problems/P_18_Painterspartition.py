@@ -1,4 +1,5 @@
 '''
+Date:->15 Jan 2026
 This is a classical problem of book allocation problem
 
 Given N boards of length each given in form of array
