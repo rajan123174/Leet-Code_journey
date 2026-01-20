@@ -6,6 +6,8 @@ include letters and numbers.
 
 Given a string s, return true if it is a palindrome, 
 or false otherwise.
+
+Two Pointer Approach
 '''
 def isalphaNum(ch):
     if (ch >= '0' and ch <= '9') or (ch.lower() >= 'a' and ch.lower() <= 'z'):
