@@ -26,3 +26,5 @@ s = "daabcbaabcbc"
 part = 'abc'
 
 print(removeOccurrences(s, part))
+
+
