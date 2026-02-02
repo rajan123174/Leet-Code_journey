@@ -25,6 +25,8 @@ public:
         this-> salary = orgObj.salary;
     }
 
+    
+
     void changeDept(string newDept){
         dept = newDept;
     }
